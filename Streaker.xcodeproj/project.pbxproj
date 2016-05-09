@@ -15,6 +15,15 @@
 		84AE09EF1CE025100025FD03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84AE09ED1CE025100025FD03 /* LaunchScreen.storyboard */; };
 		84AE09FA1CE025100025FD03 /* StreakerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AE09F91CE025100025FD03 /* StreakerTests.m */; };
 		84AE0A051CE025100025FD03 /* StreakerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AE0A041CE025100025FD03 /* StreakerUITests.m */; };
+		84AE0A161CE041850025FD03 /* commonFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AE0A151CE041850025FD03 /* commonFunctions.m */; };
+		84AE0A191CE042CA0025FD03 /* FrostedContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AE0A181CE042CA0025FD03 /* FrostedContainerViewController.m */; };
+		84AE0A1C1CE043A30025FD03 /* FrostedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AE0A1B1CE043A30025FD03 /* FrostedViewController.m */; };
+		84AE0A221CE044680025FD03 /* UIImage+FrostedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AE0A211CE044680025FD03 /* UIImage+FrostedViewController.m */; };
+		84AE0A251CE044950025FD03 /* UIView+FrostedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AE0A241CE044950025FD03 /* UIView+FrostedViewController.m */; };
+		84AE0A281CE044D10025FD03 /* UIViewController+FrostedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AE0A271CE044D10025FD03 /* UIViewController+FrostedViewController.m */; };
+		84AE0A2A1CE049F00025FD03 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84AE0A291CE049F00025FD03 /* QuartzCore.framework */; };
+		84AE0A2C1CE04A040025FD03 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84AE0A2B1CE04A040025FD03 /* CoreImage.framework */; };
+		84AE0A2E1CE04A0D0025FD03 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84AE0A2D1CE04A0D0025FD03 /* Accelerate.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +60,21 @@
 		84AE0A001CE025100025FD03 /* StreakerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StreakerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84AE0A041CE025100025FD03 /* StreakerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StreakerUITests.m; sourceTree = "<group>"; };
 		84AE0A061CE025100025FD03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84AE0A141CE041850025FD03 /* commonFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = commonFunctions.h; sourceTree = "<group>"; };
+		84AE0A151CE041850025FD03 /* commonFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = commonFunctions.m; sourceTree = "<group>"; };
+		84AE0A171CE042CA0025FD03 /* FrostedContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrostedContainerViewController.h; sourceTree = "<group>"; };
+		84AE0A181CE042CA0025FD03 /* FrostedContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FrostedContainerViewController.m; sourceTree = "<group>"; };
+		84AE0A1A1CE043A30025FD03 /* FrostedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrostedViewController.h; sourceTree = "<group>"; };
+		84AE0A1B1CE043A30025FD03 /* FrostedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FrostedViewController.m; sourceTree = "<group>"; };
+		84AE0A201CE044680025FD03 /* UIImage+FrostedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+FrostedViewController.h"; sourceTree = "<group>"; };
+		84AE0A211CE044680025FD03 /* UIImage+FrostedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+FrostedViewController.m"; sourceTree = "<group>"; };
+		84AE0A231CE044950025FD03 /* UIView+FrostedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FrostedViewController.h"; sourceTree = "<group>"; };
+		84AE0A241CE044950025FD03 /* UIView+FrostedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FrostedViewController.m"; sourceTree = "<group>"; };
+		84AE0A261CE044D10025FD03 /* UIViewController+FrostedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+FrostedViewController.h"; sourceTree = "<group>"; };
+		84AE0A271CE044D10025FD03 /* UIViewController+FrostedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+FrostedViewController.m"; sourceTree = "<group>"; };
+		84AE0A291CE049F00025FD03 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		84AE0A2B1CE04A040025FD03 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		84AE0A2D1CE04A0D0025FD03 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +82,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84AE0A2E1CE04A0D0025FD03 /* Accelerate.framework in Frameworks */,
+				84AE0A2C1CE04A040025FD03 /* CoreImage.framework in Frameworks */,
+				84AE0A2A1CE049F00025FD03 /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,10 +108,12 @@
 		84AE09D31CE0250F0025FD03 = {
 			isa = PBXGroup;
 			children = (
+				84AE0A131CE040DD0025FD03 /* Slider */,
 				84AE09DE1CE0250F0025FD03 /* Streaker */,
 				84AE09F81CE025100025FD03 /* StreakerTests */,
 				84AE0A031CE025100025FD03 /* StreakerUITests */,
 				84AE09DD1CE0250F0025FD03 /* Products */,
+				84AE0A2F1CE04AF90025FD03 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -138,6 +167,35 @@
 				84AE0A061CE025100025FD03 /* Info.plist */,
 			);
 			path = StreakerUITests;
+			sourceTree = "<group>";
+		};
+		84AE0A131CE040DD0025FD03 /* Slider */ = {
+			isa = PBXGroup;
+			children = (
+				84AE0A141CE041850025FD03 /* commonFunctions.h */,
+				84AE0A151CE041850025FD03 /* commonFunctions.m */,
+				84AE0A171CE042CA0025FD03 /* FrostedContainerViewController.h */,
+				84AE0A181CE042CA0025FD03 /* FrostedContainerViewController.m */,
+				84AE0A1A1CE043A30025FD03 /* FrostedViewController.h */,
+				84AE0A1B1CE043A30025FD03 /* FrostedViewController.m */,
+				84AE0A201CE044680025FD03 /* UIImage+FrostedViewController.h */,
+				84AE0A211CE044680025FD03 /* UIImage+FrostedViewController.m */,
+				84AE0A231CE044950025FD03 /* UIView+FrostedViewController.h */,
+				84AE0A241CE044950025FD03 /* UIView+FrostedViewController.m */,
+				84AE0A261CE044D10025FD03 /* UIViewController+FrostedViewController.h */,
+				84AE0A271CE044D10025FD03 /* UIViewController+FrostedViewController.m */,
+			);
+			name = Slider;
+			sourceTree = "<group>";
+		};
+		84AE0A2F1CE04AF90025FD03 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84AE0A2D1CE04A0D0025FD03 /* Accelerate.framework */,
+				84AE0A2B1CE04A040025FD03 /* CoreImage.framework */,
+				84AE0A291CE049F00025FD03 /* QuartzCore.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -272,6 +330,12 @@
 			files = (
 				84AE09E71CE0250F0025FD03 /* ViewController.m in Sources */,
 				84AE09E41CE0250F0025FD03 /* AppDelegate.m in Sources */,
+				84AE0A191CE042CA0025FD03 /* FrostedContainerViewController.m in Sources */,
+				84AE0A251CE044950025FD03 /* UIView+FrostedViewController.m in Sources */,
+				84AE0A281CE044D10025FD03 /* UIViewController+FrostedViewController.m in Sources */,
+				84AE0A221CE044680025FD03 /* UIImage+FrostedViewController.m in Sources */,
+				84AE0A161CE041850025FD03 /* commonFunctions.m in Sources */,
+				84AE0A1C1CE043A30025FD03 /* FrostedViewController.m in Sources */,
 				84AE09E11CE0250F0025FD03 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
