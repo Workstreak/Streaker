@@ -8,8 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
+#import "FrostedViewController.h"
+
 @interface ViewController : UIViewController
 
+- (IBAction)menu:(id)sender;
 
 @end
 

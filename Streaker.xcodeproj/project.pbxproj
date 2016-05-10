@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		845870181CE1A55500B5D62D /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 845870141CE1A55500B5D62D /* Fabric.framework */; };
+		845870191CE1A55500B5D62D /* TwitterKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 845870151CE1A55500B5D62D /* TwitterKit.framework */; };
+		8458701A1CE1A55500B5D62D /* TwitterKitResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 845870161CE1A55500B5D62D /* TwitterKitResources.bundle */; };
+		8458701B1CE1A55500B5D62D /* TwitterCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 845870171CE1A55500B5D62D /* TwitterCore.framework */; };
 		84AE09E11CE0250F0025FD03 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AE09E01CE0250F0025FD03 /* main.m */; };
 		84AE09E41CE0250F0025FD03 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AE09E31CE0250F0025FD03 /* AppDelegate.m */; };
 		84AE09E71CE0250F0025FD03 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AE09E61CE0250F0025FD03 /* ViewController.m */; };
@@ -24,6 +28,15 @@
 		84AE0A2A1CE049F00025FD03 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84AE0A291CE049F00025FD03 /* QuartzCore.framework */; };
 		84AE0A2C1CE04A040025FD03 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84AE0A2B1CE04A040025FD03 /* CoreImage.framework */; };
 		84AE0A2E1CE04A0D0025FD03 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84AE0A2D1CE04A0D0025FD03 /* Accelerate.framework */; };
+		84AE0A321CE061210025FD03 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AE0A311CE061210025FD03 /* MenuViewController.m */; };
+		84AE0A351CE0634D0025FD03 /* NavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AE0A341CE0634D0025FD03 /* NavViewController.m */; };
+		84AE0A371CE067880025FD03 /* Icon@152.png in Resources */ = {isa = PBXBuildFile; fileRef = 84AE0A361CE067880025FD03 /* Icon@152.png */; };
+		84AE0A391CE076750025FD03 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84AE0A381CE076750025FD03 /* CoreGraphics.framework */; };
+		84AE0A3B1CE076AC0025FD03 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84AE0A3A1CE076AC0025FD03 /* Security.framework */; };
+		84AE0A3D1CE076BC0025FD03 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84AE0A3C1CE076BC0025FD03 /* Foundation.framework */; };
+		84AE0A3F1CE076CC0025FD03 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84AE0A3E1CE076CC0025FD03 /* UIKit.framework */; };
+		84AE0A421CE0786E0025FD03 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AE0A411CE0786E0025FD03 /* RootViewController.m */; };
+		84AE0A461CE07B060025FD03 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AE0A451CE07B060025FD03 /* LoginViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +57,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		845870141CE1A55500B5D62D /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
+		845870151CE1A55500B5D62D /* TwitterKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TwitterKit.framework; sourceTree = "<group>"; };
+		845870161CE1A55500B5D62D /* TwitterKitResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = TwitterKitResources.bundle; path = TwitterKit.framework/Versions/A/Resources/TwitterKitResources.bundle; sourceTree = "<group>"; };
+		845870171CE1A55500B5D62D /* TwitterCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TwitterCore.framework; sourceTree = "<group>"; };
 		84AE09DC1CE0250F0025FD03 /* Streaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Streaker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84AE09E01CE0250F0025FD03 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		84AE09E21CE0250F0025FD03 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -75,6 +92,19 @@
 		84AE0A291CE049F00025FD03 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		84AE0A2B1CE04A040025FD03 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
 		84AE0A2D1CE04A0D0025FD03 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		84AE0A301CE061210025FD03 /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MenuViewController.h; path = ../../MenuViewController.h; sourceTree = "<group>"; };
+		84AE0A311CE061210025FD03 /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MenuViewController.m; path = ../../MenuViewController.m; sourceTree = "<group>"; };
+		84AE0A331CE0634D0025FD03 /* NavViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavViewController.h; sourceTree = "<group>"; };
+		84AE0A341CE0634D0025FD03 /* NavViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavViewController.m; sourceTree = "<group>"; };
+		84AE0A361CE067880025FD03 /* Icon@152.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@152.png"; sourceTree = "<group>"; };
+		84AE0A381CE076750025FD03 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		84AE0A3A1CE076AC0025FD03 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		84AE0A3C1CE076BC0025FD03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		84AE0A3E1CE076CC0025FD03 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		84AE0A401CE0786E0025FD03 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		84AE0A411CE0786E0025FD03 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		84AE0A441CE07B060025FD03 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		84AE0A451CE07B060025FD03 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,9 +112,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84AE0A3F1CE076CC0025FD03 /* UIKit.framework in Frameworks */,
+				84AE0A3D1CE076BC0025FD03 /* Foundation.framework in Frameworks */,
+				84AE0A3B1CE076AC0025FD03 /* Security.framework in Frameworks */,
+				845870181CE1A55500B5D62D /* Fabric.framework in Frameworks */,
+				84AE0A391CE076750025FD03 /* CoreGraphics.framework in Frameworks */,
+				8458701B1CE1A55500B5D62D /* TwitterCore.framework in Frameworks */,
 				84AE0A2E1CE04A0D0025FD03 /* Accelerate.framework in Frameworks */,
 				84AE0A2C1CE04A040025FD03 /* CoreImage.framework in Frameworks */,
 				84AE0A2A1CE049F00025FD03 /* QuartzCore.framework in Frameworks */,
+				845870191CE1A55500B5D62D /* TwitterKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -108,8 +145,13 @@
 		84AE09D31CE0250F0025FD03 = {
 			isa = PBXGroup;
 			children = (
-				84AE0A131CE040DD0025FD03 /* Slider */,
+				845870141CE1A55500B5D62D /* Fabric.framework */,
+				845870151CE1A55500B5D62D /* TwitterKit.framework */,
+				845870161CE1A55500B5D62D /* TwitterKitResources.bundle */,
+				845870171CE1A55500B5D62D /* TwitterCore.framework */,
 				84AE09DE1CE0250F0025FD03 /* Streaker */,
+				84AE0A431CE07AF50025FD03 /* Login */,
+				84AE0A131CE040DD0025FD03 /* Slider */,
 				84AE09F81CE025100025FD03 /* StreakerTests */,
 				84AE0A031CE025100025FD03 /* StreakerUITests */,
 				84AE09DD1CE0250F0025FD03 /* Products */,
@@ -132,9 +174,16 @@
 			children = (
 				84AE09E21CE0250F0025FD03 /* AppDelegate.h */,
 				84AE09E31CE0250F0025FD03 /* AppDelegate.m */,
+				84AE0A401CE0786E0025FD03 /* RootViewController.h */,
+				84AE0A411CE0786E0025FD03 /* RootViewController.m */,
 				84AE09E51CE0250F0025FD03 /* ViewController.h */,
 				84AE09E61CE0250F0025FD03 /* ViewController.m */,
+				84AE0A301CE061210025FD03 /* MenuViewController.h */,
+				84AE0A311CE061210025FD03 /* MenuViewController.m */,
+				84AE0A331CE0634D0025FD03 /* NavViewController.h */,
+				84AE0A341CE0634D0025FD03 /* NavViewController.m */,
 				84AE09E81CE025100025FD03 /* Main.storyboard */,
+				84AE0A361CE067880025FD03 /* Icon@152.png */,
 				84AE09EB1CE025100025FD03 /* Assets.xcassets */,
 				84AE09ED1CE025100025FD03 /* LaunchScreen.storyboard */,
 				84AE09F01CE025100025FD03 /* Info.plist */,
@@ -191,11 +240,24 @@
 		84AE0A2F1CE04AF90025FD03 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				84AE0A3E1CE076CC0025FD03 /* UIKit.framework */,
+				84AE0A3C1CE076BC0025FD03 /* Foundation.framework */,
+				84AE0A3A1CE076AC0025FD03 /* Security.framework */,
+				84AE0A381CE076750025FD03 /* CoreGraphics.framework */,
 				84AE0A2D1CE04A0D0025FD03 /* Accelerate.framework */,
 				84AE0A2B1CE04A040025FD03 /* CoreImage.framework */,
 				84AE0A291CE049F00025FD03 /* QuartzCore.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		84AE0A431CE07AF50025FD03 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				84AE0A441CE07B060025FD03 /* LoginViewController.h */,
+				84AE0A451CE07B060025FD03 /* LoginViewController.m */,
+			);
+			name = Login;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -208,6 +270,7 @@
 				84AE09D81CE0250F0025FD03 /* Sources */,
 				84AE09D91CE0250F0025FD03 /* Frameworks */,
 				84AE09DA1CE0250F0025FD03 /* Resources */,
+				845870131CE1A51700B5D62D /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -301,9 +364,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84AE0A371CE067880025FD03 /* Icon@152.png in Resources */,
 				84AE09EF1CE025100025FD03 /* LaunchScreen.storyboard in Resources */,
 				84AE09EC1CE025100025FD03 /* Assets.xcassets in Resources */,
 				84AE09EA1CE025100025FD03 /* Main.storyboard in Resources */,
+				8458701A1CE1A55500B5D62D /* TwitterKitResources.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -323,12 +388,31 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		845870131CE1A51700B5D62D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./Fabric.framework/run 1fa6d3f5a87b1d50fc13e72b593eb2c0c6ea688b 9ec5e9fd75c5c6ee6aeac7b19ef640ec69c3465fedbd71c5c488d0b84877d232";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		84AE09D81CE0250F0025FD03 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				84AE09E71CE0250F0025FD03 /* ViewController.m in Sources */,
+				84AE0A351CE0634D0025FD03 /* NavViewController.m in Sources */,
+				84AE0A461CE07B060025FD03 /* LoginViewController.m in Sources */,
+				84AE0A421CE0786E0025FD03 /* RootViewController.m in Sources */,
 				84AE09E41CE0250F0025FD03 /* AppDelegate.m in Sources */,
 				84AE0A191CE042CA0025FD03 /* FrostedContainerViewController.m in Sources */,
 				84AE0A251CE044950025FD03 /* UIView+FrostedViewController.m in Sources */,
@@ -337,6 +421,7 @@
 				84AE0A161CE041850025FD03 /* commonFunctions.m in Sources */,
 				84AE0A1C1CE043A30025FD03 /* FrostedViewController.m in Sources */,
 				84AE09E11CE0250F0025FD03 /* main.m in Sources */,
+				84AE0A321CE061210025FD03 /* MenuViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -479,6 +564,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Streaker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.workstreak.Streaker;
@@ -490,6 +579,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Streaker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.workstreak.Streaker;
@@ -562,6 +655,7 @@
 				84AE0A0B1CE025100025FD03 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84AE0A0C1CE025100025FD03 /* Build configuration list for PBXNativeTarget "StreakerTests" */ = {
 			isa = XCConfigurationList;
@@ -570,6 +664,7 @@
 				84AE0A0E1CE025100025FD03 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84AE0A0F1CE025100025FD03 /* Build configuration list for PBXNativeTarget "StreakerUITests" */ = {
 			isa = XCConfigurationList;
@@ -578,6 +673,7 @@
 				84AE0A111CE025100025FD03 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
