@@ -11,6 +11,8 @@
 		845870191CE1A55500B5D62D /* TwitterKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 845870151CE1A55500B5D62D /* TwitterKit.framework */; };
 		8458701A1CE1A55500B5D62D /* TwitterKitResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 845870161CE1A55500B5D62D /* TwitterKitResources.bundle */; };
 		8458701B1CE1A55500B5D62D /* TwitterCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 845870171CE1A55500B5D62D /* TwitterCore.framework */; };
+		845870211CE1C62100B5D62D /* NFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 845870201CE1C62100B5D62D /* NFViewController.m */; };
+		845870241CE1C72000B5D62D /* NFTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 845870231CE1C72000B5D62D /* NFTableViewCell.m */; };
 		84AE09E11CE0250F0025FD03 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AE09E01CE0250F0025FD03 /* main.m */; };
 		84AE09E41CE0250F0025FD03 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AE09E31CE0250F0025FD03 /* AppDelegate.m */; };
 		84AE09E71CE0250F0025FD03 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AE09E61CE0250F0025FD03 /* ViewController.m */; };
@@ -61,6 +63,10 @@
 		845870151CE1A55500B5D62D /* TwitterKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TwitterKit.framework; sourceTree = "<group>"; };
 		845870161CE1A55500B5D62D /* TwitterKitResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = TwitterKitResources.bundle; path = TwitterKit.framework/Versions/A/Resources/TwitterKitResources.bundle; sourceTree = "<group>"; };
 		845870171CE1A55500B5D62D /* TwitterCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TwitterCore.framework; sourceTree = "<group>"; };
+		8458701F1CE1C62100B5D62D /* NFViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NFViewController.h; sourceTree = "<group>"; };
+		845870201CE1C62100B5D62D /* NFViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NFViewController.m; sourceTree = "<group>"; };
+		845870221CE1C72000B5D62D /* NFTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NFTableViewCell.h; sourceTree = "<group>"; };
+		845870231CE1C72000B5D62D /* NFTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NFTableViewCell.m; sourceTree = "<group>"; };
 		84AE09DC1CE0250F0025FD03 /* Streaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Streaker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84AE09E01CE0250F0025FD03 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		84AE09E21CE0250F0025FD03 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -103,8 +109,8 @@
 		84AE0A3E1CE076CC0025FD03 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		84AE0A401CE0786E0025FD03 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		84AE0A411CE0786E0025FD03 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
-		84AE0A441CE07B060025FD03 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
-		84AE0A451CE07B060025FD03 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		84AE0A441CE07B060025FD03 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginViewController.h; path = ../LoginViewController.h; sourceTree = "<group>"; };
+		84AE0A451CE07B060025FD03 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginViewController.m; path = ../LoginViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,7 +156,6 @@
 				845870161CE1A55500B5D62D /* TwitterKitResources.bundle */,
 				845870171CE1A55500B5D62D /* TwitterCore.framework */,
 				84AE09DE1CE0250F0025FD03 /* Streaker */,
-				84AE0A431CE07AF50025FD03 /* Login */,
 				84AE0A131CE040DD0025FD03 /* Slider */,
 				84AE09F81CE025100025FD03 /* StreakerTests */,
 				84AE0A031CE025100025FD03 /* StreakerUITests */,
@@ -176,16 +181,22 @@
 				84AE09E31CE0250F0025FD03 /* AppDelegate.m */,
 				84AE0A401CE0786E0025FD03 /* RootViewController.h */,
 				84AE0A411CE0786E0025FD03 /* RootViewController.m */,
-				84AE09E51CE0250F0025FD03 /* ViewController.h */,
-				84AE09E61CE0250F0025FD03 /* ViewController.m */,
-				84AE0A301CE061210025FD03 /* MenuViewController.h */,
-				84AE0A311CE061210025FD03 /* MenuViewController.m */,
 				84AE0A331CE0634D0025FD03 /* NavViewController.h */,
 				84AE0A341CE0634D0025FD03 /* NavViewController.m */,
-				84AE09E81CE025100025FD03 /* Main.storyboard */,
-				84AE0A361CE067880025FD03 /* Icon@152.png */,
-				84AE09EB1CE025100025FD03 /* Assets.xcassets */,
+				84AE0A301CE061210025FD03 /* MenuViewController.h */,
+				84AE0A311CE061210025FD03 /* MenuViewController.m */,
 				84AE09ED1CE025100025FD03 /* LaunchScreen.storyboard */,
+				84AE09E81CE025100025FD03 /* Main.storyboard */,
+				84AE0A441CE07B060025FD03 /* LoginViewController.h */,
+				84AE0A451CE07B060025FD03 /* LoginViewController.m */,
+				84AE09E51CE0250F0025FD03 /* ViewController.h */,
+				84AE09E61CE0250F0025FD03 /* ViewController.m */,
+				8458701F1CE1C62100B5D62D /* NFViewController.h */,
+				845870201CE1C62100B5D62D /* NFViewController.m */,
+				845870221CE1C72000B5D62D /* NFTableViewCell.h */,
+				845870231CE1C72000B5D62D /* NFTableViewCell.m */,
+				84AE09EB1CE025100025FD03 /* Assets.xcassets */,
+				84AE0A361CE067880025FD03 /* Icon@152.png */,
 				84AE09F01CE025100025FD03 /* Info.plist */,
 				84AE09DF1CE0250F0025FD03 /* Supporting Files */,
 			);
@@ -249,15 +260,6 @@
 				84AE0A291CE049F00025FD03 /* QuartzCore.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		84AE0A431CE07AF50025FD03 /* Login */ = {
-			isa = PBXGroup;
-			children = (
-				84AE0A441CE07B060025FD03 /* LoginViewController.h */,
-				84AE0A451CE07B060025FD03 /* LoginViewController.m */,
-			);
-			name = Login;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -419,6 +421,8 @@
 				84AE0A281CE044D10025FD03 /* UIViewController+FrostedViewController.m in Sources */,
 				84AE0A221CE044680025FD03 /* UIImage+FrostedViewController.m in Sources */,
 				84AE0A161CE041850025FD03 /* commonFunctions.m in Sources */,
+				845870241CE1C72000B5D62D /* NFTableViewCell.m in Sources */,
+				845870211CE1C62100B5D62D /* NFViewController.m in Sources */,
 				84AE0A1C1CE043A30025FD03 /* FrostedViewController.m in Sources */,
 				84AE09E11CE0250F0025FD03 /* main.m in Sources */,
 				84AE0A321CE061210025FD03 /* MenuViewController.m in Sources */,

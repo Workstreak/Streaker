@@ -19,8 +19,19 @@
 @implementation LoginViewController
 
 - (void)viewDidLoad {
-    [super viewDidLoad];    TWTRLogInButton *logInButton = [TWTRLogInButton buttonWithLogInCompletion:^(TWTRSession *session, NSError *error) {
+    [super viewDidLoad];
+    
+    TWTRLogInButton *logInButton = [TWTRLogInButton buttonWithLogInCompletion:^(TWTRSession *session, NSError *error) {
         if (session) {
+            
+            NSString *userID = [Twitter sharedInstance].sessionStore.session.userID;
+            TWTRAPIClient *client = [[TWTRAPIClient alloc] initWithUserID:userID];
+            [client loadUserWithID:userID completion:^(TWTRUser *user, NSError *error) {
+            
+                         // nam.text = user.name;
+                
+                //label.text = [NSString stringWithFormat:@"@%@",user.screenName];
+               // imageView.image = [UIImage imageWithData:[NSData dataWithContentsOfURL:[NSURL URLWithString:user.profileImageLargeURL]]];
             // Callback for login success or failure. The TWTRSession
             // is also available on the [Twitter sharedInstance]
             // singleton.
@@ -38,23 +49,34 @@
                                                    // cancelButtonTitle:@"OK"
                                                    // otherButtonTitles:nil];
               //[alert show];
-            
+             
             dispatch_async(dispatch_get_main_queue(), ^{
                 // NSLog(@"Login SUCCESS");
                 ViewController *vc = [[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateViewControllerWithIdentifier:@"rootController"];
                 
-                [[NSUserDefaults standardUserDefaults] setObject:[session userName] forKey:@"userID"];
+                [[NSUserDefaults standardUserDefaults] setObject:[session userName] forKey:@"screenName"];
+               
+                [[NSUserDefaults standardUserDefaults] synchronize];
+                
+                [[NSUserDefaults standardUserDefaults] setObject:[user name] forKey:@"userName"];
+
+                [[NSUserDefaults standardUserDefaults] synchronize];
+                
+                [[NSUserDefaults standardUserDefaults] setObject:[user profileImageURL] forKey:@"imageUrl"];
                 
                 [[NSUserDefaults standardUserDefaults] synchronize];
+                
                 
                 [self presentViewController:vc animated:YES completion:nil];
                 
             });
+}];
 
-        } else {
-            NSLog(@"Login error: %@", [error localizedDescription]);
-        }
-    }];
+} else {
+    NSLog(@"error: %@", error.localizedDescription);
+}
+}];
+
     
     // TODO: Change where the log in button is positioned in your view
     logInButton.center = self.view.center;

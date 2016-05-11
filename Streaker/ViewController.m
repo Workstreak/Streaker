@@ -30,7 +30,7 @@
 - (void)showTimeline {
     // Create an API client and data source to fetch Tweets for the timeline
     TWTRAPIClient *client = [[TWTRAPIClient alloc] init];
-    TWTRCollectionTimelineDataSource *datasource = [[TWTRCollectionTimelineDataSource alloc] initWithCollectionID:@"539487832448843776" APIClient:client];
+    TWTRCollectionTimelineDataSource *datasource = [[TWTRCollectionTimelineDataSource alloc] initWithCollectionID:@"725994508928741376" APIClient:client];
     TWTRTimelineViewController *controller = [[TWTRTimelineViewController alloc] initWithDataSource:datasource];
     // Create done button to dismiss the view controller
     UIBarButtonItem *button = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemDone target:self action:@selector(dismissTimeline)];
